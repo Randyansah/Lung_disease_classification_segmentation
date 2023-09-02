@@ -3,7 +3,7 @@ install:
 		pip install -r requirements.txt
 
 test:
-	python -m pytest --nbval data_science_notebook.ipynb
+	python -m pytest --nbval main.py
 
 format:
 	black *.py
