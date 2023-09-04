@@ -1,3 +1,9 @@
 tensorflow
 pandas
 numpy
+keras
+PIL
+pathlib
+matplotlib
+os
+cv2

@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  lungdiseaseclassificationandsegmentation:
+    image: lungdiseaseclassificationandsegmentation
+    build:
+      context: .
+      dockerfile: ./Dockerfile
